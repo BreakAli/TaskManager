@@ -1,26 +1,5 @@
-import { useState } from 'react'
-
-const Tasks = () => {
-    const [tasks, setTasks] = useState([
-        { 
-            id:1, 
-            text:'Doctors Appt', 
-            day:'Feb 5th at 2:30pm', 
-            remind:true,
-        },
-        { 
-            id:2, 
-            text:'Meeting at School', 
-            day:'Feb 6th at 2:30pm', 
-            remind:true,
-        },
-        { 
-            id:3, 
-            text:'Food Shopping', 
-            day:'Feb 7th at 2:30pm', 
-            remind:true,
-        },
-    ])
+const Tasks = ({ tasks}) => {
+    
     
   return (
   <>

@@ -3,8 +3,9 @@ import Button from './Button';
 
 
 const Header = ({ title }) => {
+    const counter = 3
     const onClick = () => {
-        console.log('Click2')
+        console.log(counter+ 1)
     }
     
   return (
