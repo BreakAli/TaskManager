@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "text": "Go To Chipotle",
-      "day": "Everyday",
-      "reminder": true,
-      "id": 1
-    },
-    {
       "text": "Go to Doctor",
       "day": "Monday",
       "reminder": true,
@@ -17,6 +11,12 @@
       "day": "Never",
       "reminder": false,
       "id": 3
+    },
+    {
+      "text": "Go To Jannah",
+      "day": "Never",
+      "reminder": true,
+      "id": 4
     }
   ]
 }

@@ -93,11 +93,10 @@ const App = () => {
       )
   }
   return (
+
     <Router>
     <div className="container">
-      <Header 
-        onAdd ={() => setShowAddTask(!showAddTask)}
-        showAdd ={showAddTask}
+      <Header onAdd ={() => setShowAddTask(!showAddTask)} showAdd ={showAddTask}
       />
       
       <Routes>
